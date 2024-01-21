@@ -1,0 +1,23 @@
+@import url('@/assets/fonts/MiSans/MiSans.css');
+@import url('@/assets/fonts/MiLanPro/MiLanPro.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+@font-face {
+  font-family: "SmileySans";
+  src: url("@/assets/fonts/SmileySansV1.1.1/SmileySans-Oblique.ttf");
+}
+
+body {
+  min-width: 320px;
+  font-family: MiSans, MI Lan Pro, sans-serif, serif;
+}
+
+#app {
+  margin: 0 20px;
+}
